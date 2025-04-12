@@ -1,0 +1,387 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Real Estate
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Header -->
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <div class="flex items-center">
+     <img alt="Logo" class="h-10" height="50" src="https://storage.googleapis.com/a1aa/image/cPcgdDYKCYmwePebxsqD8BI4wCwV1Kyuj7AlTadNsDc.jpg" width="150"/>
+     <nav class="ml-6">
+      <ul class="flex space-x-4">
+       <li>
+        <a class="text-gray-700 hover:text-red-500" href="#">
+         Home
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-700 hover:text-red-500" href="#">
+         Properties
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-700 hover:text-red-500" href="#">
+         Agents
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-700 hover:text-red-500" href="#">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+    <div class="flex items-center space-x-4">
+     <a class="text-gray-700 hover:text-red-500" href="#">
+      Login
+     </a>
+     <a class="text-gray-700 hover:text-red-500" href="#">
+      Register
+     </a>
+    </div>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative">
+   <img alt="Hero Image" class="w-full h-96 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/9w5vbpIhKAX4NFQWszvhmIthcQy88qUlqCo6VpK34vo.jpg" width="1200"/>
+   <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
+    <h1 class="text-3xl font-bold">
+     Chatham St NW, Roanoke, VA 24012
+    </h1>
+    <div class="mt-4 flex space-x-4">
+     <button class="bg-red-500 px-4 py-2 rounded">
+      Buy
+     </button>
+     <button class="bg-gray-700 px-4 py-2 rounded">
+      Rent
+     </button>
+    </div>
+    <div class="mt-6 bg-white p-4 rounded shadow-lg w-full max-w-3xl">
+     <form class="flex space-x-4">
+      <input class="flex-1 p-2 border rounded" placeholder="Property Type" type="text"/>
+      <input class="flex-1 p-2 border rounded" placeholder="Location" type="text"/>
+      <input class="flex-1 p-2 border rounded" placeholder="Price Range" type="text"/>
+      <button class="bg-red-500 text-white px-4 py-2 rounded">
+       Find Now
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Properties Section -->
+  <section class="container mx-auto px-4 py-12">
+   <h2 class="text-2xl font-bold mb-6">
+    Properties
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white shadow rounded overflow-hidden">
+     <img alt="Property Image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/vUKLfmfK0uctu2RHdz-4m0-57J1GYHiW1S8FWERf8o4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-bold">
+       Modern Apartment
+      </h3>
+      <p class="text-gray-600">
+       1234 Elm St, Springfield, IL 62704
+      </p>
+      <div class="mt-2 flex justify-between items-center">
+       <span class="text-red-500 font-bold">
+        $1,200/mo
+       </span>
+       <a class="text-gray-700 hover:text-red-500" href="#">
+        Details
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="bg-white shadow rounded overflow-hidden">
+     <img alt="Property Image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/vUKLfmfK0uctu2RHdz-4m0-57J1GYHiW1S8FWERf8o4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-bold">
+       Luxury Villa
+      </h3>
+      <p class="text-gray-600">
+       5678 Oak St, Springfield, IL 62704
+      </p>
+      <div class="mt-2 flex justify-between items-center">
+       <span class="text-red-500 font-bold">
+        $2,500/mo
+       </span>
+       <a class="text-gray-700 hover:text-red-500" href="#">
+        Details
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="bg-white shadow rounded overflow-hidden">
+     <img alt="Property Image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/vUKLfmfK0uctu2RHdz-4m0-57J1GYHiW1S8FWERf8o4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-bold">
+       Cozy Cottage
+      </h3>
+      <p class="text-gray-600">
+       9101 Pine St, Springfield, IL 62704
+      </p>
+      <div class="mt-2 flex justify-between items-center">
+       <span class="text-red-500 font-bold">
+        $900/mo
+       </span>
+       <a class="text-gray-700 hover:text-red-500" href="#">
+        Details
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="bg-white shadow rounded overflow-hidden">
+     <img alt="Property Image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/vUKLfmfK0uctu2RHdz-4m0-57J1GYHiW1S8FWERf8o4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-bold">
+       Spacious House
+      </h3>
+      <p class="text-gray-600">
+       1122 Maple St, Springfield, IL 62704
+      </p>
+      <div class="mt-2 flex justify-between items-center">
+       <span class="text-red-500 font-bold">
+        $1,800/mo
+       </span>
+       <a class="text-gray-700 hover:text-red-500" href="#">
+        Details
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="bg-white shadow rounded overflow-hidden">
+     <img alt="Property Image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/vUKLfmfK0uctu2RHdz-4m0-57J1GYHiW1S8FWERf8o4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-bold">
+       Modern Apartment
+      </h3>
+      <p class="text-gray-600">
+       1234 Elm St, Springfield, IL 62704
+      </p>
+      <div class="mt-2 flex justify-between items-center">
+       <span class="text-red-500 font-bold">
+        $1,200/mo
+       </span>
+       <a class="text-gray-700 hover:text-red-500" href="#">
+        Details
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="bg-white shadow rounded overflow-hidden">
+     <img alt="Property Image" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/vUKLfmfK0uctu2RHdz-4m0-57J1GYHiW1S8FWERf8o4.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-bold">
+       Luxury Villa
+      </h3>
+      <p class="text-gray-600">
+       5678 Oak St, Springfield, IL 62704
+      </p>
+      <div class="mt-2 flex justify-between items-center">
+       <span class="text-red-500 font-bold">
+        $2,500/mo
+       </span>
+       <a class="text-gray-700 hover:text-red-500" href="#">
+        Details
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Agents Section -->
+  <section class="container mx-auto px-4 py-12">
+   <h2 class="text-2xl font-bold mb-6">
+    Our Agents
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white shadow rounded p-4 flex items-center">
+     <img alt="Agent Image" class="w-24 h-24 rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/0GqcWt2JfAbeZSUu91F4gRrM3_IplIT40Imbc7rA1KY.jpg" width="100"/>
+     <div>
+      <h3 class="text-lg font-bold">
+       John Doe
+      </h3>
+      <p class="text-gray-600">
+       Real Estate Agent
+      </p>
+      <p class="text-gray-600">
+       Phone: (123) 456-7890
+      </p>
+      <p class="text-gray-600">
+       Email: john@example.com
+      </p>
+     </div>
+    </div>
+    <div class="bg-white shadow rounded p-4 flex items-center">
+     <img alt="Agent Image" class="w-24 h-24 rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/0GqcWt2JfAbeZSUu91F4gRrM3_IplIT40Imbc7rA1KY.jpg" width="100"/>
+     <div>
+      <h3 class="text-lg font-bold">
+       Jane Smith
+      </h3>
+      <p class="text-gray-600">
+       Real Estate Agent
+      </p>
+      <p class="text-gray-600">
+       Phone: (123) 456-7890
+      </p>
+      <p class="text-gray-600">
+       Email: jane@example.com
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Info Section -->
+  <section class="container mx-auto px-4 py-12">
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div>
+     <h3 class="text-xl font-bold mb-4">
+      Who We Are
+     </h3>
+     <img alt="Who We Are Image" class="w-full h-48 object-cover mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/TV7PhpOFwCl2W17CwWFIMmbG4qXPlh1jbEhYPk4S78g.jpg" width="300"/>
+     <p class="text-gray-600">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+     </p>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold mb-4">
+      Why Choose Us
+     </h3>
+     <ul class="space-y-2">
+      <li class="text-gray-600">
+       - Professional Service
+      </li>
+      <li class="text-gray-600">
+       - Experienced Agents
+      </li>
+      <li class="text-gray-600">
+       - Wide Range of Properties
+      </li>
+      <li class="text-gray-600">
+       - Customer Satisfaction
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold mb-4">
+      Happy Clients
+     </h3>
+     <div class="bg-white shadow rounded p-4">
+      <img alt="Client Image" class="w-24 h-24 rounded-full mx-auto mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/0nL_3ShZyne6mEIpnRw4_vGEZxJPERzrU_boB8fJ57U.jpg" width="100"/>
+      <p class="text-gray-600 text-center">
+       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+      </p>
+      <p class="text-gray-600 text-center mt-2">
+       - Client Name
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-black text-white py-12">
+   <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Contact Us
+      </h3>
+      <p class="text-gray-400">
+       1234 Elm St, Springfield, IL 62704
+      </p>
+      <p class="text-gray-400">
+       Phone: (123) 456-7890
+      </p>
+      <p class="text-gray-400">
+       Email: info@example.com
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Useful Links
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Home
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Properties
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Agents
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Pages
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Services
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         Blog
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-400 hover:text-white" href="#">
+         FAQ
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Subscribe
+      </h3>
+      <form>
+       <input class="w-full p-2 mb-4 border rounded" placeholder="Your Email" type="email"/>
+       <button class="bg-red-500 text-white px-4 py-2 rounded w-full">
+        Subscribe
+       </button>
+      </form>
+     </div>
+    </div>
+    <div class="mt-12 text-center text-gray-400">
+     © 2023 Real Estate. All rights reserved.
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
